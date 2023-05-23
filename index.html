@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Black Background with Download Button</title>
+  <style>
+    body {
+      background-color: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .download-button {
+      background-color: #800080;
+      color: #FFFFFF;
+      border: none;
+      padding: 20px 40px;
+      font-size: 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px #800080;
+      transition: transform 0.3s, background-color 0.3s;
+    }
+
+    .download-button:hover {
+      transform: scale(1.1);
+      background-color: #CBC3E3;
+    }
+
+    .download-button:active {
+      background-color: #CBC3E3;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://example.com" target="_blank">
+    <button class="download-button">Download</button>
+  </a>
+</body>
+</html>
