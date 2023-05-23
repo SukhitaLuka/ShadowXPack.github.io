@@ -6,10 +6,29 @@
     body {
       background-color: #000000;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .header-text {
+      color: #800080;
+      font-size: 32px;
+      text-shadow: 0 2px 4px #800080;
+    }
+
+    .center-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
     }
 
     .download-button {
@@ -35,8 +54,14 @@
   </style>
 </head>
 <body>
-  <a href="https://www.mediafire.com/file/usneft4ur97ohnx/%2521_%25C2%25A79venomous.zip/file" target="_blank">
-    <button class="download-button">Download</button>
-  </a>
+  <div class="header">
+    <h1 class="header-text">PvP Pack</h1>
+  </div>
+
+  <div class="center-button">
+    <a href="https://www.mediafire.com/file/usneft4ur97ohnx/%2521_%25C2%25A79venomous.zip/file" target="_blank">
+      <button class="download-button">Download</button>
+    </a>
+  </div>
 </body>
 </html>
